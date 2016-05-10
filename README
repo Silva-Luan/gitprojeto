@@ -1,0 +1,23 @@
+git add. //marca para enviar modificações, sempre deve preceder o comando git commit -m "comentario"
+
+git commit -m "comentário" // produz um comentário que informa sobre a modificação que foi feita, deve ser usado sempre após git add .
+
+git commit --amend // permite corrigir um commit
+
+git log // exibe quantas alterações (commits) foram gravadas, as referencia de cada commit, deve ser usado antes de git reset para informar o código do commit
+
+git reset HEAD código do commit //desfaz modificações para o estado do commit informado
+
+git reset código do comit // não desfaz modificações, mas apaga o registro do commit do log de modificações
+
+git status // exibe informações sobre o estado do arquivo (quais foram ou não alterados), se está ou não marcado para enviar suas alterações
+
+****************************
+
+git branch Nome da nova versão // Cria uma nova versão do projeto para modificações 
+
+git branch // exibe versões criadas
+
+git checkout nome da versão // seleciona a versão >> o simbolo * indica a versão em uso
+
+git merge "versão modificada" // faz uma versão modificada se tornar versão principal
